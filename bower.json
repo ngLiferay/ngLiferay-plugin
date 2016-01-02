@@ -1,0 +1,42 @@
+{
+  "name": "ngLiferay-plugin",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ngLiferay/ngLiferay-plugin",
+  "description": "ngLiferay-plugin",
+  "main": [
+    "./dist/js/scripts.js",
+    "./dist/css/main.css"
+  ],
+  "moduleType": [],
+  "keywords": [
+    "ngLiferay",
+    "liferay"
+  ],
+  "authors": [
+    "Yogesh Agarwal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".tmp",
+    ".tmpWar"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "jquery": "~2.1.4",
+    "bootstrap": "^3.2.0",
+    "angular-ui-router": "~0.2.15",
+    "angular-bootstrap": "~0.14.3"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css"
+      ]
+    }
+  }
+}
